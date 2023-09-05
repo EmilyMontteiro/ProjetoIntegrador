@@ -1,0 +1,57 @@
+body{
+    font-family: Arial;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    padding-top: 60px;
+}
+
+
+header{
+    background-color: rgb(73, 73, 247);
+    color: aliceblue;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}    
+
+div{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+ 
+
+aside{
+
+    flex: 1;
+    text-align:left;
+    background-color:white ;
+    padding: 100px;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color:rgb(73, 73, 247);
+    color: black;
+    text-align: center;
+    padding: 0,5px ;
+}
+
+
+h2{
+    color: black;
+    text-align: center; 
+}
+
+#formCadastro{
+    margin-left: auto;
+    margin-right: auto;
+    width: 5%;
+    min-width: 300px;
+}
